@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Manvi-Portfolio/static/css/main.e38277bf.css",
+    "main.js": "/Manvi-Portfolio/static/js/main.8136c456.js",
+    "static/media/create.jpg": "/Manvi-Portfolio/static/media/create.3f33fef65ef451055535.jpg",
+    "static/media/India.jpg": "/Manvi-Portfolio/static/media/India.4b42824e32501c9c3090.jpg",
+    "static/media/BallImg.jpg": "/Manvi-Portfolio/static/media/BallImg.7036d88c848c15cbd15a.jpg",
+    "static/media/Dong.jpg": "/Manvi-Portfolio/static/media/Dong.877166ad92da73d89a63.jpg",
+    "static/media/Angel.jpg": "/Manvi-Portfolio/static/media/Angel.1ef8478314494bf0f7ea.jpg",
+    "static/media/garba.jpg": "/Manvi-Portfolio/static/media/garba.0d658d1fba4e2bcc9271.jpg",
+    "static/media/contactimg.avif": "/Manvi-Portfolio/static/media/contactimg.3eb3b0370479b36c9fbb.avif",
+    "static/media/aboutmeimg.avif": "/Manvi-Portfolio/static/media/aboutmeimg.c1dd81aea32336b651e0.avif",
+    "static/media/HeartImg.png": "/Manvi-Portfolio/static/media/HeartImg.7a71edda8a39b40e61cc.png",
+    "static/media/ConvexImg.avif": "/Manvi-Portfolio/static/media/ConvexImg.54f05a887ced62120425.avif",
+    "static/media/cycat-logo.jpg": "/Manvi-Portfolio/static/media/cycat-logo.91773901268ef8f6ee84.jpg",
+    "static/media/minicomputer.avif": "/Manvi-Portfolio/static/media/minicomputer.f4863fda7bd42fe84c24.avif",
+    "static/media/GradImg.jpg": "/Manvi-Portfolio/static/media/GradImg.af2cfcf8f1929e440ae6.jpg",
+    "static/media/BumbleImg.avif": "/Manvi-Portfolio/static/media/BumbleImg.3bb397b608e0f0d00c9b.avif",
+    "static/media/about.avif": "/Manvi-Portfolio/static/media/about.9f01565f22a1f31ad95a.avif",
+    "static/media/PlaneImg.avif": "/Manvi-Portfolio/static/media/PlaneImg.12bdeb87dd3e7bfae296.avif",
+    "static/media/Sudoku.avif": "/Manvi-Portfolio/static/media/Sudoku.1bc08d6da2cc7aa9435b.avif",
+    "static/media/contacttwo.avif": "/Manvi-Portfolio/static/media/contacttwo.accd6e93b777b293e8c4.avif",
+    "static/media/game-image.png": "/Manvi-Portfolio/static/media/game-image.3718d921f693ebd74bca.png",
+    "static/media/swirl.avif": "/Manvi-Portfolio/static/media/swirl.5bd3e6d1096c87b7aeb3.avif",
+    "static/media/wrdsb.webp": "/Manvi-Portfolio/static/media/wrdsb.87a9c6f4adfb19db4d91.webp",
+    "index.html": "/Manvi-Portfolio/index.html",
+    "main.e38277bf.css.map": "/Manvi-Portfolio/static/css/main.e38277bf.css.map",
+    "main.8136c456.js.map": "/Manvi-Portfolio/static/js/main.8136c456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38277bf.css",
+    "static/js/main.8136c456.js"
+  ]
+}
