@@ -55,13 +55,6 @@ const AboutMeSection = () => {
 
   const moreProjects = [
     {
-      title: "My mom and I at Garba (A traditional Gujarati Dance)",
-      img: {
-        src: Garba,
-        alt: "Project 1 screenshot",
-      },
-    },
-    {
       title: "Waterloo Region District School Board Youth Council",
       img: {
         src: WRDSB,
