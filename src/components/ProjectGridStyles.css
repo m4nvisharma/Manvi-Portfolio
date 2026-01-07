@@ -1,0 +1,24 @@
+.card-grid {
+  display: grid;
+  gap: 0.5em;
+  padding: 0.75em;
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  .project-grid-wrapper .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  
+  .project-grid-wrapper .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

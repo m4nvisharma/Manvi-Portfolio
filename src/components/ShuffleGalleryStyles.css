@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+.shuffling-gallery-container {
+  --digit-active-color: #35c4ff;
+  --digit-color: #35c2ff7c;
+  --main-color: #0d0d0c;
+  --seconday-color: #1c1c1c;
+  --main-gradient: linear-gradient(90deg, #35c4ff 0%, #b24eff 100%);
+  --sizeCreaBlock: 270px;
+  --bgCreaBlock: #000000;
+  --blockTranslateX: 190px;
+  --blockRotateY: 40deg;
+  --marginSize: 36px;
+  --shadowColor: 15px 5px 20px -7px rgb(0 0 0 / 30%);
+  --blocImgSize: 200px;
+  --arc-blue: rgba(53, 113, 158, 1);
+  --arc-vert: #4caf50;
+  --arc-jaune: #ffeb3b;
+  --arc-rose: #e91e63;
+  --arc-orange: #f76334;
+  
+  padding: 50px 20px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shuffling-gallery-container * {
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.creationsBlocUl {
+  white-space: nowrap;
+  text-align: center;
+  min-height: 450px;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.blocImg {
+  width: 100%;
+  height: var(--blocImgSize);
+  position: relative;
+  z-index: 9999;
+  padding: 10px;
+}
+
+.blocImg > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.creaBlock {
+  width: var(--sizeCreaBlock);
+  background-color: var(--bgCreaBlock);
+  padding: 50px 20px 20px 20px;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: var(--shadowColor);
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.creaBlock::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: calc(var(--sizeCreaBlock) * 2);
+  height: calc(var(--sizeCreaBlock) * 2);
+  background-color: #35c2ff42;
+  transform: rotateZ(70deg);
+  z-index: -1;
+}
+
+.creaBlock > figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 20%;
+  font-weight: bold;
+  color: white;
+  padding: 25px;
+  font-size: 16px;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.lineSeparator {
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  margin: 40px 0 25px 0;
+  opacity: 0.4;
+  background-color: #00bcd4;
+}
+
+.creaBlockPrez:nth-child(1) {
+  z-index: 1;
+  transform: scale(0.9);
+}
+
+.creaBlockPrez:nth-child(1):hover {
+  transform: scale(1.1);
+}
+
+.creaBlockPrez:nth-child(1):hover ~ .creaBlockPrez:nth-child(2) {
+  transform: scale(0.83) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(1):hover ~ .creaBlockPrez:nth-child(3) {
+  transform: scale(0.88) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(1):hover ~ .creaBlockPrez:nth-child(4) {
+  transform: scale(0.93) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(1):hover ~ .creaBlockPrez:nth-child(5) {
+  transform: scale(0.98) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(2) {
+  z-index: 2;
+  margin-left: calc(-6 * var(--marginSize));
+  transform: scale(0.94);
+}
+
+.creaBlockPrez:nth-child(2):hover {
+  transform: scale(1.1);
+}
+
+.creaBlockPrez:nth-child(2):hover ~ .creaBlockPrez:nth-child(3) {
+  transform: scale(0.88) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(2):hover ~ .creaBlockPrez:nth-child(4) {
+  transform: scale(0.93) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(2):hover ~ .creaBlockPrez:nth-child(5) {
+  transform: scale(0.98) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(3) {
+  z-index: 3;
+  margin-left: calc(-6 * var(--marginSize));
+  transform: scale(0.98);
+}
+
+.creaBlockPrez:nth-child(3):hover {
+  transform: scale(1.1);
+}
+
+.creaBlockPrez:nth-child(3):hover ~ .creaBlockPrez:nth-child(4) {
+  transform: scale(0.93) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(3):hover ~ .creaBlockPrez:nth-child(5) {
+  transform: scale(0.98) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(4) {
+  z-index: 4;
+  margin-left: calc(-6 * var(--marginSize));
+  transform: scale(1.02);
+}
+
+.creaBlockPrez:nth-child(4):hover {
+  transform: scale(1.1);
+}
+
+.creaBlockPrez:nth-child(4):hover ~ .creaBlockPrez:nth-child(5) {
+  transform: scale(0.98) translateX(var(--blockTranslateX)) rotateY(var(--blockRotateY));
+}
+
+.creaBlockPrez:nth-child(5) {
+  z-index: 5;
+  margin-left: calc(-6 * var(--marginSize));
+  transform: scale(1.06);
+}
+
+.creaBlockPrez:nth-child(5):hover {
+  transform: scale(1.1);
+}
+
+.creaBlockPrez:nth-child(1) .lineSeparator {
+  background-color: var(--arc-orange);
+}
+
+.creaBlockPrez:nth-child(2) .lineSeparator {
+  background-color: var(--arc-rose);
+}
+
+.creaBlockPrez:nth-child(3) .lineSeparator {
+  background-color: var(--arc-jaune);
+}
+
+.creaBlockPrez:nth-child(4) .lineSeparator {
+  background-color: var(--arc-vert);
+}
+
+.creaBlockPrez:nth-child(5) .lineSeparator {
+  background-color: var(--arc-blue);
+}

@@ -1,0 +1,86 @@
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+}
+
+.into-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+.mask::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    padding: 2rem;
+    border-radius: 10px;
+}   
+
+.hero .content h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.hero .content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    color: #ddd;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.content .btn {
+    margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .hero .content h1 {
+        font-size: 3rem;
+    }
+
+    .hero .content p {
+        font-size: 1.4rem;
+    }
+
+    .buttons {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+}
