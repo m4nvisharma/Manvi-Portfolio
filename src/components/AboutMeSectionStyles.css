@@ -45,10 +45,11 @@
   .about-me-content {
     grid-template-columns: 1fr;
     gap: 40px;
+    max-width: 100%
   }
 
   .about-me-text {
-    padding-right: 4;
+    padding-right: 10;
     text-align: left;
   }
 
