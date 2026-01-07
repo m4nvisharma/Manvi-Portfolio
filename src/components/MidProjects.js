@@ -21,7 +21,7 @@ const MidProjects = () => {
       image: GameImg,
       skills: ["Python", "NumPy", "PyGame", "Heuristic Algorithm"],
       completion: 1.0, // 0.0 to 1.0 (will show as percentage)
-      githubUrl: "https://github.com/yourusername/repo",
+      githubUrl: "https://github.com/m4nvisharma/2048Game-Solver",
       liveUrl: "", // optional
       features: ""
     }
@@ -46,7 +46,7 @@ const MidProjects = () => {
       image: PlaneImg,
       skills: ["Python", "A* Algorithm"],
       completion: 1, // 0.0 to 1.0 (will show as percentage)
-      githubUrl: "https://github.com/yourusername/repo",
+      githubUrl: "https://github.com/m4nvisharma/flightplan",
       liveUrl: "", // optional
       features: ""
     },
@@ -58,7 +58,7 @@ const MidProjects = () => {
       image: ConvexImg,
       skills: ["Python", "Matplotlib", "Data Visualization", "Computational Geometry"],
       completion: 1, // 0.0 to 1.0 (will show as percentage)
-      githubUrl: "https://github.com/yourusername/repo",
+      githubUrl: "https://github.com/m4nvisharma/aniconvexhull",
       liveUrl: "", // optional
       features: ""
     }, 
@@ -70,7 +70,7 @@ const MidProjects = () => {
       image: SudokuImg,
       skills: ["Python", "Backtracking Algorithm", "Constraint Satisfaction", "Recursion", "Data Structures"],
       completion: 1, // 0.0 to 1.0 (will show as percentage)
-      githubUrl: "https://github.com/yourusername/repo",
+      githubUrl: "https://github.com/m4nvisharma/SudokuSolver",
       liveUrl: "", // optional
       features: ""
     },
