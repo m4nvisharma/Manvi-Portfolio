@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="right">
           <h4>About Me</h4>
           <p>
-            I am a student super passionate about all sorts of computer science fields. In
+            I am a student super passionate about the field of computer science. In
             particular, I want to explore the intersection of robotics and
             biology, Human Computer Interaction, data-driven software,
             and artificial intelligence. I am always looking for new people to
