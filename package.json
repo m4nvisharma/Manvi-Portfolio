@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://m4nvisharma.github.io/Manvi-Portfolio/",
+  "homepage": "https://m4nvisharma.github.io/Manvi-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -11,7 +11,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^6.30.2",
+    "react-router-dom": "^7.11.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
