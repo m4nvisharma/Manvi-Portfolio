@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <IntroTwo
-        title="CONTACT."
+        title="CONTACT"
         text="Get in touch"
         backgroundImage={ContactMe}
       />

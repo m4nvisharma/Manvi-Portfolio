@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <IntroTwo 
-        title="ABOUT ME."
+        title="ABOUT ME"
         text="I'm glad you want to get to know me better :)"
         backgroundImage= {AboutMe}
       />

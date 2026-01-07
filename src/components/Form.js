@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './FormStyles.css';
+import emailjs from 'emailjs-com';
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -18,15 +19,20 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to a backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
+
+    const SERVICE_ID = 'service_d0g9g0n';
+    const TEMPLATE_ID = 'template_4no3umv';
+    const PUBLIC_KEY = '8VTsYGy6qXakuMArK';
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY)
+      .then((response) => {
+        alert('Message sent successfully! Thank you.');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      })
+      .catch((error) => {
+        alert('Failed to send message. Please try again later.');
+        console.error('EmailJS error:', error);
+      });
   };
 
   return (

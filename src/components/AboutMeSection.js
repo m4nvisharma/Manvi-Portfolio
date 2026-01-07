@@ -90,16 +90,16 @@ const AboutMeSection = () => {
         <div className="about-me-text">
           <h2>About Me</h2>
           <p>
-          Hi, I’m a Computer Science student at the University of Waterloo. I didn’t always love tech, in fact, I hated it. 
-          My first coding experience was frustrating, but curiosity kept me coming back. By grade 8, I built scratch apps solving 
-          real problems, and in grade 11, game creation taught me the thrill of bringing ideas to life. Now, I’m exploring the 
-          intersections of robotics, AI, biology, and human-computer interaction, excited to see where curiosity and experimentation 
-          will take me next!
+         Hi! I’m a Computer Science student at the University of Waterloo. I didn’t fall in love with tech right away, but the moment 
+         I realized I could build things with my own two hands, things that actually matter, I was sold. There’s something so insanely 
+         exciting about turning a vision into something real, useful, and impactful, and that curiosity is what keeps me exploring new 
+         spaces like robotics, AI, and human-centered design.
 
           </p>
           <p>
-           Beyond code and circuits, I love traveling to new countries and remote villages, Vietnam being my favorite so far. 
-           Additionally, hobbies such as cooking, dancing, playing basketball/ping pong, and writing have always been a way to spend my free time.
+           Beyond code and circuits, I love exploring new places—especially traveling to new countries and remote villages 
+           (Vietnam is my favorite so far!). In my downtime, you’ll usually find me dancing, 
+           playing basketball or ping pong, writing or learning a whole new hobby.
           </p>
         </div>
         
@@ -112,16 +112,16 @@ const AboutMeSection = () => {
         <div className="about-me-text">
           <h2>Extracurriculars, Skills & Interests</h2>
           <p>
-          As Internal Affairs Director for the Canadian Youth Climate Action Team, I work to drive environmental policy change,
-           organize nationwide school initiatives, and strengthen advocacy efforts. Previously, as a Youth Member of the WRDSB Youth
-            Advisory Council, I collaborated with policymakers to promote accessible healthcare, educational technology, and equity. 
-            Tutoring also became a way for me to give back in a personal, hands-on way, connecting with others and sharing what I’ve 
-            learned. 
+          Outside the classroom, I’m passionate about creating impact beyond code. As the Internal Affairs Director for the Canadian Youth Climate Action Team, 
+          I help drive environmental policy change and organize initiatives across schools nationwide. I’ve also worked closely with 
+          policymakers as a Youth Member of the WRDSB Youth Advisory Council, advocating for accessible healthcare, education, and equity. 
+          Alongside this work, tutoring has been one of the most meaningful ways I’ve made an impact on a smaller, more personal scale—working
+           one-on-one with students, meeting them where they are, and helping concepts finally make sense.
           </p>
           <p>
-           I’m most comfortable with Python, having used libraries such as Pandas, NumPy, Matplotlib, TensorFlow, and Orange Data Mining, 
-           and I also have experience with JS, HTML, CSS, React, Excel, and some hardware knowledge using TinkerCAD, Arduino, and circuits. 
-           See my projects page for more info!
+           On the technical side, I’m most comfortable with Python, working with tools like Pandas, NumPy, Matplotlib, TensorFlow,
+            and Orange Data Mining, along with developer tools like VS Code and Github. I also have experience with JavaScript, HTML, CSS, React, Excel, and hands-on hardware work using 
+            TinkerCAD, Arduino, and circuits. I'm starting to learn C++, Raspberry Pi, and more electromechanics as I work on my latest project. Feel free to check out my projects page to see what I’ve been building!
           </p>
         </div>
       </div>

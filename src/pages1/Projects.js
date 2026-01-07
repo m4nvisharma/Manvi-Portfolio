@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <IntroTwo
-        title="PROJECTS."
+        title="PROJECTS"
         text="Some of my most recent works"
         backgroundImage={Computer}
       />

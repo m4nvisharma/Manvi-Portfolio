@@ -8,6 +8,7 @@ const Navbar = () => {
   const [color, setColor] = useState(false);
 
   const handleClick = () => setClick(!click);
+  const closeMenu = () => setClick(false)
 
   const changeColor = () => {
     if (window.scrollY >= 100) {
@@ -28,17 +29,17 @@ const Navbar = () => {
         <h1>Portfolio</h1>
       </Link>
       <ul className={click ? 'navbar-menu active' : 'navbar-menu'}>
-        <li>
-          <Link to="/">Home</Link>
+        <li> 
+          <Link to="/" onClick={closeMenu}>Home</Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" onClick={closeMenu}>Projects</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about"onClick={closeMenu} >About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </li>
       </ul>
       <div className="hamburger-menu" onClick={handleClick}>
