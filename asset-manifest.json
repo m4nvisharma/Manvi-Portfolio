@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Manvi-Portfolio/static/css/main.f2e8f1c5.css",
-    "main.js": "/Manvi-Portfolio/static/js/main.45df6a00.js",
+    "main.js": "/Manvi-Portfolio/static/js/main.7c4ee6ba.js",
     "static/media/create.jpg": "/Manvi-Portfolio/static/media/create.3f33fef65ef451055535.jpg",
     "static/media/India.jpg": "/Manvi-Portfolio/static/media/India.4b42824e32501c9c3090.jpg",
     "static/media/BallImg.jpg": "/Manvi-Portfolio/static/media/BallImg.7036d88c848c15cbd15a.jpg",
@@ -25,10 +25,10 @@
     "static/media/wrdsb.webp": "/Manvi-Portfolio/static/media/wrdsb.87a9c6f4adfb19db4d91.webp",
     "index.html": "/Manvi-Portfolio/index.html",
     "main.f2e8f1c5.css.map": "/Manvi-Portfolio/static/css/main.f2e8f1c5.css.map",
-    "main.45df6a00.js.map": "/Manvi-Portfolio/static/js/main.45df6a00.js.map"
+    "main.7c4ee6ba.js.map": "/Manvi-Portfolio/static/js/main.7c4ee6ba.js.map"
   },
   "entrypoints": [
     "static/css/main.f2e8f1c5.css",
-    "static/js/main.45df6a00.js"
+    "static/js/main.7c4ee6ba.js"
   ]
 }
